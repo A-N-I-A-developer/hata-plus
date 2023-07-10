@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+    font-size: 14rem;
+}
+
+.header-line {
+    background-color: #1f1f56;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: #b1b1d2;
+    font-size: 14rem;
+    line-height: 24rem;
+    letter-spacing: 2rem;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #fd8300;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+.images li {
+    list-style: none;
+}
+
+.contacts.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0;
+}
+
+.phone a {
+    display: block;
+    color: #25252c;
+    font-size: 18rem;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.phone a:hover {
+    text-decoration: underline;
+}
+
+.phone a:first-child,
+.email a:first-child {
+    margin-bottom: 8px;
+}
+
+.email a {
+    display: block;
+    color: #25252c;
+    font-size: 16rem;
+    font-family: "Arial";
+}
+
+.email a:last-child {
+    text-decoration: none;
+}
+
+.call a {
+    display: inline-block;
+    padding: 20px 30px;
+    width: 83%;
+    color: #25252c;
+    font-size: 16rem;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #fd8300;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.call a:hover {
+    color: #fff;
+    background-color: #fd8300;
+}
+
+.banner {
+    padding: 50px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), #24242b url(../images/banner.jpg);
+    background-size: cover;
+}
+
+.banner .banner-name {
+    color: #fff;
+    font-size: 30rem;
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.banner p {
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 14rem;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.banner p:last-child {
+    margin: 0;
+}
+
+.banner b {
+    color: #fd8300;
+    font-size: 24rem;
+    font-family: "Arial";
+}
+
+.banner b:first-child {
+    font-size: 40rem;
+}
+
+sup {
+    font-size: 15px;
+}
+
+main .wrapper {
+    column-gap: 28px;
+}
+
+.company-description h1 {
+    margin-bottom: 30px;
+    color: #24242b;
+    font-size: 30rem;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.company-description p {
+    font-size: 14rem;
+    line-height: 24rem;
+    color: #666;
+    font-family: "Arial";
+}
+
+.section-description p:last-child {
+    margin-bottom: 25px;
+}
+
+.company-description a {
+    color: #fd8300;
+    font-size: 14rem;
+    line-height: 24rem;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.company-description a:hover {
+    color: #1f1f56;
+}
+
+hr {
+    margin: 30px 0;
+    border-color: #e4e4ec;
+}
+
+.half {
+    width: 75%;
+}
+
+.projects .popular-projects {
+    margin-bottom: 25px;
+    color: #24242b;
+    font-size: 24rem;
+    line-height: 24rem;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.flex-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects .flex-line {
+    align-items: stretch;
+    column-gap: 28px;
+}
+
+.projects a {
+    color: #1f1f56;
+    font-size: 14rem;
+    line-height: 24rem;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.projects p {
+    color: #9999a6;
+    font-size: 13rem;
+    line-height: 18rem;
+    font-family: "Arial";
+}
+
+.projects h2:hover {
+    color: #1f1f56;
+    text-decoration: underline;
+}
+
+.projects img {
+    margin-bottom: 13px;
+}
+
+.projects sup {
+    font-size: 10px;
+}
+
+.main-menu {
+    width: 25%;
+}
+
+.main-menu {
+    box-sizing: border-box;
+}
+
+.main-menu p {
+    padding: 15px;
+    color: #fff;
+    font-size: 16rem;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    line-height: 24rem;
+    text-decoration: none;
+    background-color: #1f1f56;
+}
+
+.main-menu {
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.main-menu ul {
+    list-style: none;
+    background-color: #e4e4ec;
+}
+
+.main-menu ul ul {
+    display: none;
+}
+
+.main-menu li:hover ul {
+    display: block;
+}
+
+.main-menu>ul>li:hover>a {
+    color: #fff;
+    background-color: #fd8300;
+}
+
+.main-menu>ul>li>a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #666;
+    border-left: none;
+    border-top: none;
+    transform: rotate(-45deg);
+}
+
+.main-menu li:hover .arrow {
+    border-color: #fff;
+    transform: rotate(45deg);
+}
+
+.main-menu ul ul li:hover>a {
+    background-color: #cecedd;
+}
+
+.main-menu ul ul a {
+    padding-left: 30px;
+    color: #666;
+}
+
+.main-menu a {
+    display: block;
+    padding: 15px;
+    color: #25252c;
+    font-size: 14rem;
+    line-height: 24rem;
+    text-decoration: none;
+    font-family: "Arial";
+    border-bottom: 1px solid #cdcddd;
+}
+
+.main-menu li:last-child {
+    overflow: hidden;
+    border-radius: 0 0 3px 3px;
+}
+
+.main-menu li:last-child a {
+    border: none;
+}
+
+.wrapper.flex-line {
+    padding: 40px 0;
+}
+
+.footer {
+    background-color: #ededf5;
+}
+
+.footer-menu a:hover {
+    color: #fd8300;
+    text-decoration: underline;
+}
+
+.footer-menu li,
+.information li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-menu a {
+    color: #666;
+    font-size: 14rem;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.information a {
+    color: #666;
+    font-size: 14rem;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.information a:hover {
+    color: #fd8300;
+    text-decoration: underline;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    color: #9999a6;
+    font-size: 13rem;
+    line-height: 18rem;
+    font-family: "Arial";
+    background-color: #dcdce6;
+}
