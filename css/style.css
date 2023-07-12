@@ -92,8 +92,17 @@ body {
     font-family: "Arial";
 }
 
+.email a:hover {
+    text-decoration: none;
+    color: #fd8300;
+}
+
 .email a:last-child {
     text-decoration: none;
+}
+
+.email a:last-child:hover {
+    text-decoration: underline;
 }
 
 .call a {
