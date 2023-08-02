@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Roboto Slab', serif;
+    src: url('../fonts/font-family: 'Roboto Slab', serif;.eot');
+    src: url('../fonts/font-family: 'Roboto Slab', serif;.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font-family: 'Roboto Slab', serif;.woff2') format('woff2'),
+        url('../fonts/font-family: 'Roboto Slab', serif;.woff') format('woff'),
+        url('../fonts/font-family: 'Roboto Slab', serif;.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -50,15 +62,48 @@ body {
     color: #fd8300;
 }
 
-.images {
+.social {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 10%;
+    list-style: none;
 }
 
-.images li {
-    list-style: none;
+.social a,
+.phone a:first-child:before{
+    display: inline-block;
+    background-image: url(../images/sprite.png);
+    transition: 0.3s;
+}
+
+.fb {
+    width: 10px;
+    height: 19px;
+}
+
+.fb:hover {
+    background-position: 0 -21px;
+}
+
+.tw {
+    width: 18px;
+    height: 15px;
+    background-position: -12px 0;
+}
+
+.tw:hover {
+    background-position: -12px -21px;
+}
+
+.inst {
+    width: 19px;
+    height: 19px;
+    background-position: -32px 0;
+}
+
+.inst:hover {
+    background-position: -32px -21px;
 }
 
 .contacts.wrapper {
@@ -69,7 +114,9 @@ body {
 }
 
 .phone a {
+    position: relative;
     display: block;
+    padding-left: 28px;
     color: #25252c;
     font-size: 18rem;
     font-family: "Arial";
@@ -80,13 +127,26 @@ body {
     text-decoration: underline;
 }
 
+.phone a:first-child:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    background-position: 0 -42px;
+    transform: translateY(-50%);
+}
+
 .phone a:first-child,
 .email a:first-child {
     margin-bottom: 8px;
 }
 
 .email a {
+    position: relative;
     display: block;
+    padding-left: 28px;
     color: #25252c;
     font-size: 16rem;
     font-family: "Arial";
@@ -97,12 +157,34 @@ body {
     color: #fd8300;
 }
 
+.email a:first-child:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 18px;
+    height: 13px;
+    background-position: 18 -42px;
+    transform: translateY(-50%);
+}
+
 .email a:last-child {
     text-decoration: none;
 }
 
 .email a:last-child:hover {
     text-decoration: underline;
+}
+
+.email a:last-child:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 19px;
+    height: 19px;
+    background-position: 18 -42px;
+    transform: translateY(-50%);
 }
 
 .call a {
@@ -138,7 +220,7 @@ body {
     letter-spacing: 2rem;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 .banner p {
@@ -176,7 +258,7 @@ main .wrapper {
     color: #24242b;
     font-size: 30rem;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 .company-description p {
@@ -218,7 +300,7 @@ hr {
     font-size: 24rem;
     line-height: 24rem;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 .flex-line {
