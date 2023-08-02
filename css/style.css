@@ -164,7 +164,8 @@ body {
     left: 0;
     width: 18px;
     height: 13px;
-    background-position: 18 -42px;
+    background-image: url(../images/sprite.png);
+    background-position: -18px -42px;
     transform: translateY(-50%);
 }
 
@@ -183,7 +184,8 @@ body {
     left: 0;
     width: 19px;
     height: 19px;
-    background-position: 18 -42px;
+    background-image: url(../images/sprite.png);
+    background-position: -38px -42px;
     transform: translateY(-50%);
 }
 
@@ -437,7 +439,7 @@ hr {
     padding: 40px 0;
 }
 
-.footer {
+footer {
     background-color: #ededf5;
 }
 
