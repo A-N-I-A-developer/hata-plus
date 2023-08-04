@@ -337,6 +337,8 @@ hr {
 
 .main-menu {
     box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 3px;
 }
 
 .main-menu p {
@@ -348,11 +350,6 @@ hr {
     line-height: 24rem;
     text-decoration: none;
     background-color: #1f1f56;
-}
-
-.main-menu {
-    overflow: hidden;
-    border-radius: 3px;
 }
 
 .main-menu ul {
