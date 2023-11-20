@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    box-sizing: border-box;
+}
+
+.bg-grey {
+    width: 20%;
+    background-color: #dcdce5;
+}
+
+.wrapper {
+    width: 60%;
+}
+
+.logo {
+    padding: 15px 0 15px 30px;
+}
+
+.tel a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.contacts {
+    padding-right: 30px;
+    text-align: right;
+}
+
+.contact {
+    margin-bottom: 5px;
+}
+
+.phone-icon {
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite.png?raw=true);
+    background-position: 0 -41px;
+    margin-right: 10px;
+
+}
+
+.contact-phone p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+}
+
+.retreat {
+    background-color: #f5f5f5;
+}
+
+.description {
+    padding-left: 30px;
+}
+
+.head-company {
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-family: "Arial";
+    text-align: left;
+}
