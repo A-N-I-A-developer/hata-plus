@@ -120,6 +120,26 @@ table td {
     background-color: #ededf5;
 }
 
+.main-difference-td {
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.image-different {
+    padding-bottom: 25px;
+}
+
+.main-difference-td h3 {
+    padding-bottom: 10px;
+}
+
+.main-difference-td p {
+    padding-bottom: 35px;
+    max-width: 200px;
+    text-align: center;
+}
+
 .location-image {
     display: inline-block;
     width: 37px;
@@ -142,4 +162,96 @@ table td {
     height: 46px;
     background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
     background-position: -84px 0;
+}
+
+.main-description {
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+}
+
+.main-description h2 {
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-family: "Arial";
+}
+
+.main-description p {
+    font-size: 13px;
+    line-height: 19px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.location-house {
+    padding-bottom: 15px;
+}
+
+.line {
+    border-bottom: 1px solid #e3e3eb;
+}
+
+.line>td {
+    padding-bottom: 25px;
+}
+
+.edmonton-news {
+    text-align: right;
+}
+
+.line-second {
+    border: 1px solid #e3e3eb;
+}
+
+.action {
+    background-color: #fd8300;
+}
+
+.action h3 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+}
+
+.sent-list {
+    text-align: center;
+}
+
+.action p {
+    display: inline-block;
+    margin-bottom: 15px;
+    max-width: 400px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.link-take-part {
+    text-align: center;
+}
+
+.action a {
+    display: inline-block;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #1f1f56;
 }
