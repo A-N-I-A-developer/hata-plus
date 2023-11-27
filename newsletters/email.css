@@ -284,6 +284,7 @@ table td {
 }
 
 .short-name {
+    padding-bottom: 25px;
     font-size: 13px;
     line-height: 18px;
     color: #9999a6;
