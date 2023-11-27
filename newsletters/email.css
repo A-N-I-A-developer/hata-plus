@@ -198,16 +198,35 @@ table td {
     padding-bottom: 25px;
 }
 
+.edmonton-line,
+.edmonton-news {
+    padding-top: 25px;
+}
+
+.edmonton-news {
+    padding-bottom: 25px;
+}
+
+.edmonton-line {
+    padding-bottom: 25px;
+}
+
+.calgary-line {
+    padding-top: 25px;
+}
+
+.line-second {
+    height: 1px;
+    border-top: 1px solid #dadae2;
+    border-bottom: 2px solid #f5f5f5;
+}
+
 .edmonton-news {
     text-align: right;
 }
 
-.line-second {
-    border: 1px solid #e3e3eb;
-}
-
 .action {
-    background-color: #fd8300;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/container.jpg?raw=true);
 }
 
 .action h3 {
@@ -254,4 +273,84 @@ table td {
     text-decoration: none;
     border-radius: 20px;
     background-color: #1f1f56;
+}
+
+.bg-color {
+    background-color: #08081a;
+}
+
+.bgc-last {
+    background-color: #000014;
+}
+
+.short-name {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.link-sait {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.link-sait a,
+.link-sait span {
+    font-size: 11px;
+    line-height: 18px;
+    color: #fd8300;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+}
+
+.twitter-image {
+    display: inline-block;
+    width: 17px;
+    height: 13px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
+    background-position: -118px 0;
+}
+
+.facebook-image {
+    display: inline-block;
+    width: 10px;
+    height: 18px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
+    background-position: -139px 0;
+}
+
+.wi-fi-image {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
+    background-position: -150px 0;
+}
+
+.pinterest-image {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
+    background-position: -168px 0;
+}
+
+.google-image {
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
+    background-position: -189px 0;
+}
+
+.basketball-image {
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
+    background-position: -230px -20px;
 }
