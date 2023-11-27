@@ -307,6 +307,27 @@ table td {
     text-decoration: none;
 }
 
+.footer-img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-image {
+    max-width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-image a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #ffffff;
+}
+
 .twitter-image {
     display: inline-block;
     width: 17px;
@@ -353,4 +374,20 @@ table td {
     height: 19px;
     background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
     background-position: -230px -20px;
+}
+
+.linked-in-image {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
+    background-position: -210px 0;
+}
+
+.etc-image {
+    display: inline-block;
+    width: 19px;
+    height: 8px;
+    background-image: url(https://github.com/A-N-I-A-developer/hata-plus/blob/master/images/sprite_hata_news.png?raw=true);
+    background-position: -228px 0;
 }
