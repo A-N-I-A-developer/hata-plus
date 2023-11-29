@@ -196,6 +196,7 @@ table td {
 
 .line>td {
     padding-bottom: 25px;
+    padding-right: 20px;
 }
 
 .edmonton-line,
@@ -213,6 +214,7 @@ table td {
 
 .calgary-line {
     padding-top: 25px;
+    padding-right: 20px;
 }
 
 .line-second {
@@ -319,14 +321,22 @@ table td {
     margin-right: auto;
 }
 
+.footer-image {
+    text-align: center;
+    vertical-align: middle;
+}
+
 .footer-image a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     width: 35px;
     height: 35px;
     border-radius: 17px;
     background-color: #ffffff;
+}
+
+.footer-image a td {
+    width: 35px;
+    height: 35px;
 }
 
 .twitter-image {
